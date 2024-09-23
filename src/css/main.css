@@ -107,3 +107,36 @@ body {
   gap: 10px;
   padding-top: 50px;
 }
+
+.mobile.square {
+  background: #ffcc2f;
+}
+
+.legend-box {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.desktop.square {
+  background: #37d3d2;
+}
+
+.square {
+  width: 16px;
+  height: 16px;
+}
+
+.legend-box {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
